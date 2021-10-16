@@ -1,0 +1,39 @@
+const [Mobile , setMobile] = useState([0,1,2])
+    const [slide , setSlide] = useState(0)
+    
+            
+
+const ChangeState =(event)=>{
+  if (slide < Mobile.length) {
+      setSlide(slide+1)
+  }
+  else {
+      return (<button>Prev</button>)
+  }
+  console.log(event.target)
+}
+    
+    console.log(Mobile)
+    console.log(slide)
+    // {/* <div>
+//       <img src={t3} alt='template'  />
+//   </div> */}
+//  function  Awww(){
+// const [data]= "data"
+// const length = data.length
+
+// return (
+
+
+//     <section   className='slider'  > 
+//         <FaArrowAltCircleRight/>
+//         <FaArrowAltCircleLeft />
+//         {data.map ((p , index)=>{
+//             return <img   src={p.data}  />
+//         })}
+//     </section>
+// )
+// } 
+// {slide === Mobile[0] && <TodoList />}
+//       {slide === Mobile[1] && <Alarm />}
+//       {slide === Mobile[2] && <Stream />}

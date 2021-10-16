@@ -1,0 +1,131 @@
+.todolist {
+
+    font-size: 20px;
+    color:silver;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.title{
+    font-weight: bold;
+}
+.work{
+    color:rgb(173, 169, 169);
+    font-size: 30px;
+    position: relative;
+    bottom:-170px;
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 1rem;
+   width:100%;
+    
+    
+  
+   
+  
+  
+}
+.maps{
+    width:100%;
+
+}
+.work img {
+ width: 250px;
+ height: 250px;
+ display:block;
+ object-fit: cover;
+ margin:0;
+ 
+}
+.image{
+    
+    width:500px;
+    
+}
+.test{
+
+
+    color:white;
+    font-size: 40px;
+    left:0px;
+}
+
+
+
+.navBox{
+
+
+    color:silver;;
+    position: absolute;
+    font-size: 69px;
+    width:50%;
+    top:50px;
+    right:0px;
+    margin-right:0px;
+    
+   
+
+}
+.navBox p {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+}
+.navbar{
+
+
+    color:silver;
+    position: absolute;
+    font-size: 20px;
+    width:60%;
+    background-color: rgb(112, 8, 112);
+    display: none;
+    height:700px;
+    top:170px;
+    right:0px;
+    
+
+}
+.navbar-show{
+
+
+    display:block
+}
+.btn--primary{
+    position: absolute;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    border: 3px solid;
+    border-color: rgb(77, 26, 77);
+    width:200px;
+    height: 75px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Play', sans-serif;
+    letter-spacing: 5px;
+    top:170px;
+    right:0px;
+    margin-right:30px;
+}
+.btn--secondary {
+
+
+    
+    position: absolute;
+    background-color: rgb(165, 5, 165);
+    color:black;
+    width:200px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    top:170px;
+    right:0px;
+    margin-right:30px;
+    font-family: 'Play', sans-serif;
+    
+
+}

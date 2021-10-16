@@ -1,0 +1,17 @@
+.header{
+    font-family: 'Play', sans-serif;
+    color:white;
+    letter-spacing: 7px;
+    font-size: 75px;
+    text-decoration: none;
+    position: absolute;
+    left:300px
+    
+    
+}
+.header Link{
+    text-decoration: none;
+}
+.header p{
+    text-decoration: none;
+}
