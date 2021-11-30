@@ -37,3 +37,30 @@ const ChangeState =(event)=>{
 // {slide === Mobile[0] && <TodoList />}
 //       {slide === Mobile[1] && <Alarm />}
 //       {slide === Mobile[2] && <Stream />}
+
+............................................................................
+<div  className='idk'>
+<h1> TodoList </h1>
+<div>
+<img src={Todo1} alt='Z'/>
+<p>This is the main page , you can create Todo items each one with a different color </p>
+</div>
+<div>
+<img src={Todo2} alt='Z'/>
+<p>you can edit the Todo items or delete them </p>
+</div>
+<div>
+<img src={Todo3} alt='Z'/>
+
+</div>
+
+
+<div>
+<img src={Todo6} alt='Z'/>
+
+</div>
+
+
+
+
+</div>
