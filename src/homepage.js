@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import Nickola from './components/assest/Nickola.jpg'
+import Baron from './components/assest/Baron.jpg'
 import Body from './components/body'
 import Navbar from './components/navbar'
 
@@ -15,11 +15,11 @@ export default function Homepage() {
     return (
         <div>
             <div className={`homepage  ${Show===true&&'homepagenew'}  `}>
-            <img src={Nickola} alt='Z' className='nickola' width='300px'/>
+            <img src={Baron} alt='Z' className='nickola' width='300px'/>
                 
             
             </div>
-            <div className={`paragraph ${Show===true&& 'paragraphnew'}`}><p>"...Welcome to my Site ,i am a Senior Mobile Developer , Specialzes in making a scalable Full Stack Mobile Apps"</p></div>
+            <div className={`paragraph ${Show===true&& 'paragraphnew'}`}><p>"...Welcome to my Portfolio ,i am a Junior Fullstack Web Developer ,specializes in making a scalable responsive Web Apps "</p></div>
             
             <div className={`bodypage ${Show===true&& 'bodypagenew'}`}>
                 
@@ -27,7 +27,10 @@ export default function Homepage() {
            
 
           <div className='test'>
-    <        p>My Apps</p>
+              <div  className='myapp'>
+              <p>My Apps:</p>
+              </div>
+                       
                        <Body />
             </div>
 
@@ -36,12 +39,17 @@ export default function Homepage() {
             
             <div className='navBox'>
        <div className={`navbar ${Show===true&& 'navbar-show'  } `}>
-            <p>Senior Android Dev   </p><break/>
-            <p>Nickola Jarjous</p><break/>
+            <p>my name is Rafiq Jarjous
+                  </p><break/>
+            <p>and i am a business graduate and a Fullstack web developer </p><break/>
+            <h5>Contact me at:</h5>
+            <p>gmail: rafiq.jarjous96@gmail.com </p><break/>
+            <p>phone number : +963 936213425  </p><break/>
+            
            </div>
                 
         </div>
-        <button onClick={changeState} className={`btn--primary ${btnTxt===true && 'btn--secondary'}`} >{btnTxt === true && 'clicked'}{btnTxt === false && 'click'}</button>
+        <button onClick={changeState} className={`btn--primary ${btnTxt===true && 'btn--secondary'}`} >{btnTxt === true && 'Show Less'}{btnTxt === false && 'About Me'}</button>
       
             
             

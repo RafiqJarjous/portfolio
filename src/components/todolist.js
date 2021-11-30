@@ -1,31 +1,46 @@
-import todolist from './assest/todolist.png'
-import todolist2 from './assest/todolist2.png'
-import todolist3 from './assest/todolist3.png'
-import todolist4 from './assest/todolist4.png'
-import './body.css'
+
+import './idk.css'
+import Todo1 from './assest/Todo1.png'
+import Todo2 from './assest/Todo2.png'
+import Todo3 from './assest/Todo3.png'
+import Todo6 from './assest/Todo6.png'
+import React, {useState} from 'react'
+
 function TodoList(){
+
+let obj1 ={
+
+    img : Todo1,
+    str:"He Test"
+}
+
+
     return(
+<div  className='idk'>
+<h1> TodoList </h1>
+<div>
+<img src={Todo1} alt='Z'/>
+<p>This is the main page , you can create Todo items each one with a different color </p>
+</div>
+<div>
+<img src={Todo2} alt='Z'/>
+<p>you can edit the Todo items or delete them </p>
+</div>
+<div>
+<img src={Todo3} alt='Z'/>
 
-        <div className='test' >
-           
-            <div>
-                 <img src={todolist} alt='Z' className='image' />
-                 <p>this is amazing</p>
-            </div>
-            <div>
-                <img src={todolist2} alt='zz' className='image'/>
-                <p>wow!</p>
-            </div>
+</div>
 
-            <div>
-            <img src={todolist3} alt='zzz' className='image'/>
-            <p>aiiii</p>
-            </div>
-            <div>
-            <img src={todolist4} alt='Zzzz' className='image' />
-                 <p>this is amazing</p>
-            </div>
-        </div>
+
+<div>
+<img src={Todo6} alt='Z'/>
+
+</div>
+
+
+
+
+</div>
     )
 }
 export default TodoList

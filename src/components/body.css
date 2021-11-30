@@ -16,9 +16,10 @@
     position: relative;
     bottom:-170px;
    display:grid;
-   grid-template-columns: repeat(4,1fr);
+   grid-template-columns: repeat(3,1fr);
    grid-gap: 1rem;
    width:100%;
+  
     
     
   
@@ -26,14 +27,11 @@
   
   
 }
-.maps{
-    width:100%;
 
-}
 .work img {
- width: 250px;
- height: 250px;
- display:block;
+ width: 400px;
+ height: 300px;
+ 
  object-fit: cover;
  margin:0;
  
@@ -80,19 +78,22 @@
 
     color:silver;
     position: absolute;
-    font-size: 20px;
-    width:60%;
-    background-color: rgb(112, 8, 112);
+ 
+    width:400px;
+    background-color: rgb(3, 0, 3);
     display: none;
-    height:700px;
+    height:400px;
     top:170px;
     right:0px;
+    border:2px solid;
+    padding:50px;
+    letter-spacing: 2px;
     
 
 }
 .navbar-show{
 
-
+    font-size:35px;
     display:block
 }
 .btn--primary{
@@ -102,7 +103,7 @@
     border: 3px solid;
     border-color: rgb(77, 26, 77);
     width:200px;
-    height: 75px;
+    height: 85px;
     font-weight: bold;
     font-size: 35px;
     font-family: 'Play', sans-serif;
@@ -116,7 +117,7 @@
 
     
     position: absolute;
-    background-color: rgb(165, 5, 165);
+    background-color: rgb(92, 6, 92);
     color:black;
     width:200px;
     height: 55px;
@@ -129,3 +130,61 @@
     
 
 }
+@media all and (max-width:600px){
+ 
+    .work {
+        color:rgb(173, 169, 169);
+        font-size: 15px;
+        position: relative;
+        bottom:-125px;
+       display:grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-gap: 1rem;
+       width:100%;
+       margin:auto;
+      
+    }
+    .work img{
+        width:300px;
+        
+    }
+    .paragraph
+    p {
+      display:none;
+    }
+
+    .btn--primary{
+        position: absolute;
+        background-color: black;
+        color:rgb(255, 255, 255);
+        border: 3px solid;
+        border-color: rgb(77, 26, 77);
+        width:200px;
+        height: 85px;
+        font-weight: bold;
+        font-size: 35px;
+        font-family: 'Play', sans-serif;
+        letter-spacing: 5px;
+        top:200px;
+        right:0px;
+        margin-right:30px;
+    }
+    .btn--secondary {
+    
+    
+        
+        position: absolute;
+        background-color: rgb(92, 6, 92);
+        color:black;
+        width:200px;
+        height: 55px;
+        font-weight: bold;
+        font-size: 20px;
+        top:200px;
+        right:0px;
+        margin-right:30px;
+        font-family: 'Play', sans-serif;
+        
+    
+    }
+  }

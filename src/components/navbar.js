@@ -20,7 +20,7 @@ export default function Navbar() {
            </div>
                 
         </div>
-        <button onClick={changeState} className={`btn--primary ${btnTxt===true && 'btn--secondary'}`} >{btnTxt === true && 'clicked'}{btnTxt === false && 'click'}</button>
+        
         </div>
     )
 }

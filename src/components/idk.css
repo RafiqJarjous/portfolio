@@ -1,0 +1,85 @@
+.idk img {
+
+width:600px;
+height: 370px;
+margin-left:400px;
+top:300rem;
+margin-top:100px
+
+
+}
+.idk{
+
+
+    display:grid;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+    top:400px;
+    overflow: hidden;
+    font-family: 'Play', sans-serif;
+  
+}
+.idk p{
+
+position: relative;
+color:white;
+font-size: 40px;
+
+}
+.idk h1{
+
+    color:silver;
+    position:absolute;
+    top:0px;
+    font-size:40px
+    
+
+}
+.idk2 p{
+
+    position: absolute;
+    top:300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px
+
+}
+@media all and (max-width:600px){
+
+    .idk{
+        display:grid;
+        align-items: center;
+        justify-content:center;
+        position:relative;
+        top:100px;
+        overflow: hidden;
+        font-family: 'Play', sans-serif;
+    }
+    .idk img {
+
+        width:500px;
+        height: 370px;
+        margin-left:40px;
+        top:300rem;
+        margin-top:150px;
+        
+        
+        
+        }
+        .idk h1{
+
+            color:silver;
+            position:absolute;
+            top:0px;
+            font-size:30px
+            
+        
+        }
+        .idk p{
+
+            position: relative;
+            color:white;
+            font-size: 20px;
+        }
+        
+}

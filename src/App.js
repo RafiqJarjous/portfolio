@@ -7,10 +7,9 @@ import Map from './components/map'
 import Homepage from './homepage'
 import Navbar from './components/navbar'
 import VPN from './components/vpn'
-import PWM from './components/pwm'
-import Alarm from './components/alarm'
-import Stream from './components/stream'
 import TodoList from './components/todolist'
+import './components/body.css'
+import Wp from './components/wp'
 
 
 function App (){
@@ -38,18 +37,11 @@ function App (){
 <Route  path='/map' exact component={Map}>
   <Map />
 </Route>
-
-<Route  path='/alarm' exact component={Alarm}>
-  <Alarm />
-</Route>
 <Route  path='/vpn' exact component={VPN}>
 <VPN />
 </Route>
-<Route path='/passwordmanager' exact component={PWM}>
-  <PWM />
-</Route>
-<Route path='/stream' exact component={Stream}>
-  <Stream />
+<Route  path='/wp' exact component={Wp}>
+<Wp />
 </Route>
         </Switch>
       </Router>

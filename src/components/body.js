@@ -1,18 +1,22 @@
 import React from 'react'
-import TodoList from './todolist'
-import Alarm from './alarm'
-import Stream from './stream'
 import {BrowserRouter as Router , Route , Switch , Link} from 'react-router-dom'
 import Map from './map'
-import unnamed from './assest/unnamed.jpg'
-import maps from './assest/maps.jpg'
+import E9 from './assest/E9.png'
+import M1 from './assest/M1.png'
+import Todo1 from './assest/Todo1.png'
+import Wp from './wp'
+import l1 from './assest/l1.jpg'
+import l2 from './assest/l2.jpg'
+import l3 from './assest/l3.jpg'
+import l4 from './assest/l4.jpg'
+import wp from './assest/wp.png'
 import VPN from './vpn'
-import PWM from './pwm'
-import streamZ from './assest/streamZ.png'
-import alarmZ from './assest/alarmZ.png'
-import uberZ from './assest/uberZ.png'
-import todoZ from './assest/todoZ.png'
-import PWMZ from './assest/PWMZ.jpg'
+
+
+
+
+
+
 
 
 function Body (){
@@ -24,68 +28,47 @@ function Body (){
 
 
 <div>
+  
 
 <div className='work'> 
     <div className='maps'>
       <Link to='/vpn' path='/vpn'>
-      <img src={unnamed} alt='Z'  />
+      <img src={l4} alt='Z'  />
       </Link>
       <p>
-        This VPN is so OP Omg
+        E-Commerce
       </p>
     </div>
 
 
+    
     <div className='maps'>
       <Link to='/map'>
-      <img src={uberZ} alt='Z'  />
+      <img src={l3} alt='Z'/>
       </Link>
       <p>
-       good service
+       Blog
       </p> 
     </div>
-
-    <div className='maps'>
-      <Link to='/alarm'>
-      <img src={alarmZ} alt='Z'/>
-      </Link>
-      <p>
-       Sound the alarm 
-      </p> 
-    </div>
-    <div className='maps'>
-      <Link to='/map'>
-      <img src={maps} alt='Z'/>
-      </Link>
-      <p>
-       this is maps
-      </p> 
-    </div>
-    <div className='maps'>
-      <Link to='/stream'>
-      <img src={streamZ} alt='Z'/>
-      </Link>
-      <p>
-      this is stream 0
-      </p> 
-    </div>
+    
 
     <div className='maps'>
       <Link to='/todolist'>
-      <img src={todoZ} alt='Z'/>
+      <img src={l2} alt='Z'/>
       </Link>
       <p>
-     this is stream 1
+     TodoList
       </p> 
     </div>
     <div className='maps'>
-      <Link to='/passwordmanager'>
-      <img src={PWMZ} alt='Z'/>
+      <Link to='/wp'>
+      <img src={wp} alt='Z'/>
       </Link>
       <p>
-       this is stream 2
+     Wordpress Store
       </p> 
     </div>
+    
 </div>
 
 </div>

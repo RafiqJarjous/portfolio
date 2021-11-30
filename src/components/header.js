@@ -11,7 +11,7 @@ function Header (){
   <div className='header'>
     <Link to='/'className='header' >
     <p>
-      Nickola's Gallery
+     Rafiq's Gallery
     </p>
     </Link>
 
